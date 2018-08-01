@@ -59,13 +59,17 @@ body,
         height: 100%;
         width: 100%;
     } */
-    
+
     .column {
         float: left;
         width: 25.00%;
         padding: 5px;
     }
     
+.row {
+    width: 100%;
+}
+
     /* Clearfix (clear floats) */
     .row::after {
         content: "";
