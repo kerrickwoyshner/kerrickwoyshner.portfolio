@@ -47,6 +47,10 @@ body,
         min-height: 400px;
     }
 
+    .w3-third, .w3-section:hover {
+        background-color: #777;
+    }
+
     .w3-wide {
         letter-spacing: 10px;
     }
