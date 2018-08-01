@@ -69,7 +69,8 @@ body,
         border: 1px solid;
         box-shadow: 5px 10px;
         margin: 5px;
-        width: 25%;
+        height: 355px;
+        width: 233px;
     }
 
     .column {
