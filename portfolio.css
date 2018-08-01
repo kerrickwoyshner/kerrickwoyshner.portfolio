@@ -55,10 +55,10 @@ body,
         cursor: pointer;
     }
 
-.carousel-item {
-    height: 20%;
-    width: 20%;
-}
+    .carousel-item {
+        height: 50%;
+        width: 50%;
+    }
 
     .contact-hover:hover {
         background-color: #777;
