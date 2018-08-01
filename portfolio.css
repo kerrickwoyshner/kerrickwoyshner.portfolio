@@ -61,14 +61,13 @@ body,
     } */
 
     .column {
-        float: left;
-        width: 25.00%;
+        flex: 50.00%;
         padding: 5px;
     }
     
-.row {
-    width: 100%;
-}
+    .row {
+        display: flex;
+    }
 
     /* Clearfix (clear floats) */
     .row::after {
