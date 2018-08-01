@@ -62,11 +62,6 @@ body,
         box-shadow: 5px 10px 18px #888888;
     }
 
-    .portfolio-image:hover {
-        width: 10%;
-        height: 10%;
-    }
-
     /* Turn off parallax scrolling for tablets and phones */
 
     @media only screen and (max-device-width: 1024px) {
