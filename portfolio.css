@@ -63,7 +63,8 @@ body,
 
     .img-with-text {
         text-align: justify;
-        width: 50%;
+        width: 20%;
+        height: 20%;
     }
     
     .img-with-text img {
