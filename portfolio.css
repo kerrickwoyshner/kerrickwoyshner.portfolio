@@ -60,6 +60,18 @@ body,
         width: 100%;
     } */
 
+
+    .img-with-text {
+        text-align: justify;
+        width: 50%;
+    }
+    
+    .img-with-text img {
+        display: block;
+        margin: 0 auto;
+    }
+
+
     .contact-hover:hover {
         background-color: #777;
         border: 1px solid;
