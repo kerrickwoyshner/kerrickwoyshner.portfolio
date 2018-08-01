@@ -47,16 +47,16 @@ body,
         min-height: 400px;
     }
 
-    .w3-third, .w3-section:hover {
-        background-color: #777;
-    }
-
     .w3-wide {
         letter-spacing: 10px;
     }
 
     .w3-hover-opacity {
         cursor: pointer;
+    }
+
+    .contact-hover:hover {
+        background-color: #777;
     }
 
     /* Turn off parallax scrolling for tablets and phones */
