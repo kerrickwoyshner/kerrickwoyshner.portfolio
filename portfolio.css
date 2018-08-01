@@ -62,6 +62,7 @@ body,
 
     .column {
         float: left;
+        height: 300px;
         width: 50.00%;
         padding: 10px;
         border: 1px solid;
