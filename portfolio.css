@@ -63,8 +63,8 @@ body,
     }
 
     .portfolio-image:hover {
-        width: 20%;
-        height: 20%;
+        width: 10%;
+        height: 10%;
     }
 
     /* Turn off parallax scrolling for tablets and phones */
