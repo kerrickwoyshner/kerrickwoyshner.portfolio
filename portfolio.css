@@ -107,8 +107,8 @@ body,
 
 /* Picture inside each portfolio card */
     .portfolio-picture {
-        height: 528.89px;
-        width: 268.98px;
+        width: 528.89px;
+        height: 268.98px;
     }
 
 /* Turn off parallax scrolling for tablets and phones */
