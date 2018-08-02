@@ -83,13 +83,14 @@ body,
         float:left;
         width: 30%;
         height: 600px;
-        padding: 20px;
+        padding-right: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
     .center {
         display: inline-block;
         margin:0 auto;
+        padding: 0;
         width: 30%;
         height: 600px;
         border: 1px solid;
@@ -99,7 +100,7 @@ body,
         float:right;
         width: 30%;
         height: 600px;
-        padding: 20px;
+        padding-left: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
