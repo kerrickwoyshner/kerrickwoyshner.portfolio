@@ -128,7 +128,49 @@ body,
     position: relative; /**remove position rule if full size images will share the same display area. **/
 }
 
-#rollover, .a, .span  {
+#rollover {
+    visibility:hidden;
+    background-color: #FFF;
+    display:block;
+    position: absolute;
+
+    /**adjust positioning of full size images in px or %**/
+    left: 0px;
+    top: -140px;
+
+    /**optional image captions**/ 
+    font-size: 12px; 
+    line-height: 1.2;
+    color:#666;
+    text-align: center;
+
+    /**optional image borders & padding**/
+    border: 5px solid orange;
+    padding: 5px;
+}
+
+.a {
+    visibility:hidden;
+    background-color: #FFF;
+    display:block;
+    position: absolute;
+
+    /**adjust positioning of full size images in px or %**/
+    left: 0px;
+    top: -140px;
+
+    /**optional image captions**/ 
+    font-size: 12px; 
+    line-height: 1.2;
+    color:#666;
+    text-align: center;
+
+    /**optional image borders & padding**/
+    border: 5px solid orange;
+    padding: 5px;
+}
+
+.span {
     visibility:hidden;
     background-color: #FFF;
     display:block;
@@ -159,11 +201,11 @@ body,
     width: 300px;
 }
 
-#rollover a:hover .span, #rollover .a:active .span, #rollover .a:focus .span {
+#rollover a:hover .span #rollover .a:active .span #rollover .a:focus .span {
     visibility:visible;
 }
 
-#rollover .a:hover, #rollover .a:focus {
+#rollover .a:hover #rollover .a:focus {
     visibility:visible;
 }
 
