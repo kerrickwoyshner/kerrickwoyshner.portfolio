@@ -5,14 +5,15 @@ li, a {
     text-transform: uppercase; 
 } 
         
-        a:hover { 
-            font-weight:bold;
-        } 
-        a::after { 
-            display: block; 
-            content: attr(title); 
-            font-weight: bold; 
-            height: 0; 
-            overflow: hidden; 
-            visibility: hidden;
-        }
+a:hover { 
+    font-weight:bold;
+}
+
+a::after { 
+    display: block; 
+    content: attr(title); 
+    font-weight: bold; 
+    height: 0; 
+    overflow: hidden; 
+    visibility: hidden;
+}
