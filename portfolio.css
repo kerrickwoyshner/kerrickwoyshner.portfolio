@@ -123,18 +123,18 @@ body,
     
     .left {
         float:left;
-        width:100px;
+        width: 33%;
     }
     
     .center {
         display: inline-block;
         margin:0 auto;
-        width:100px;
+        width: 33%;
     }
     
     .right {
         float:right;
-        width:100px;
+        width: 33%;
     }
 
     /* Turn off parallax scrolling for tablets and phones */
