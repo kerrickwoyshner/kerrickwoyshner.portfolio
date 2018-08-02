@@ -128,7 +128,8 @@ body,
     .left {
         float:left;
         width: 33.33%;
-        padding: 10px;
+        height: 400px;
+        padding: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
@@ -137,7 +138,8 @@ body,
         display: inline-block;
         margin:0 auto;
         width: 33.33%;
-        padding: 10px;
+        height: 400px;
+        padding: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
@@ -145,7 +147,8 @@ body,
     .right {
         float:right;
         width: 33.33%;
-        padding: 10px;
+        height: 400px;
+        padding: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
