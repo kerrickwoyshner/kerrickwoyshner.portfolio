@@ -110,6 +110,7 @@ body,
 
     .center-this {
         text-align: center;
+        margin-top: 20px;
     }
 
     .move-to-the-right {
