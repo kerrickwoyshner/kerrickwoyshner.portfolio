@@ -128,17 +128,26 @@ body,
     .left {
         float:left;
         width: 33.33%;
+        padding: 10px;
+        border: 1px solid;
+        box-shadow: 5px 10px;
     }
     
     .center {
         display: inline-block;
         margin:0 auto;
         width: 33.33%;
+        padding: 10px;
+        border: 1px solid;
+        box-shadow: 5px 10px;
     }
     
     .right {
         float:right;
         width: 33.33%;
+        padding: 10px;
+        border: 1px solid;
+        box-shadow: 5px 10px;
     }
 
     /* Turn off parallax scrolling for tablets and phones */
