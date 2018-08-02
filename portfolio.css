@@ -110,6 +110,66 @@ body,
         cursor: pointer;
     }
 
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* PORTFOLIO HOVER SECTION */
+
+#rollover {
+    border:none;
+    text-decoration:none;
+    padding: 0 0.5em 0 0.5em; /**space between icons**/
+    position: relative; /**remove position rule if full size images will share the same display area. **/
+}
+.a {
+    border:none;
+    text-decoration:none;
+    padding: 0 0.5em 0 0.5em; /**space between icons**/
+    position: relative; /**remove position rule if full size images will share the same display area. **/
+}
+
+#rollover, .a, .span  {
+    visibility:hidden;
+    background-color: #FFF;
+    display:block;
+    position: absolute;
+
+    /**adjust positioning of full size images in px or %**/
+    left: 0px;
+    top: -140px;
+
+    /**optional image captions**/ 
+    font-size: 12px; 
+    line-height: 1.2;
+    color:#666;
+    text-align: center;
+
+    /**optional image borders & padding**/
+    border: 5px solid orange;
+    padding: 5px;
+}
+
+.small {
+    height: 100px;
+    width: 100px;
+}
+
+.big {
+    height: 300px;
+    width: 300px;
+}
+
+#rollover a:hover .span, #rollover .a:active .span, #rollover .a:focus .span {
+    visibility:visible;
+}
+
+#rollover .a:hover, #rollover .a:focus {
+    visibility:visible;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
 /* Turn off parallax scrolling for tablets and phones */
     @media only screen and (max-device-width: 1024px) {
         .bgimg-1,
