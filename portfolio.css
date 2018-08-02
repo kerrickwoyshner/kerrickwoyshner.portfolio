@@ -33,7 +33,7 @@ body,
 
 /* Second image (Portfolio) */
     .bgimg-2 {
-        background-image: url("./images/Running-CMA.jpeg");
+        background-image: url("./images/portfolioPhoto.jpg");
         min-height: 400px;
     }
 
