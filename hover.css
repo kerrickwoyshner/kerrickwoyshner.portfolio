@@ -26,6 +26,11 @@
     padding: 5px;
 }
 
+img {
+    height: 100px;
+    width: 100px;
+}
+
 #rollover a:hover span, #rollover a:active span, #rollover a:focus span {
     visibility:visible;
 }
