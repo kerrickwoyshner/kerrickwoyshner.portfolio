@@ -26,9 +26,14 @@
     padding: 5px;
 }
 
-img {
+.small {
     height: 100px;
     width: 100px;
+}
+
+.big {
+    height: 300px;
+    width: 300px;
 }
 
 #rollover a:hover span, #rollover a:active span, #rollover a:focus span {
