@@ -127,8 +127,8 @@ body,
     
     .left {
         float:left;
-        width: 33.33%;
-        height: 400px;
+        width: 30%;
+        height: 600px;
         padding: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
@@ -137,8 +137,8 @@ body,
     .center {
         display: inline-block;
         margin:0 auto;
-        width: 33.33%;
-        height: 400px;
+        width: 30%;
+        height: 600px;
         padding: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
@@ -146,8 +146,8 @@ body,
     
     .right {
         float:right;
-        width: 33.33%;
-        height: 400px;
+        width: 30%;
+        height: 600px;
         padding: 20px;
         border: 1px solid;
         box-shadow: 5px 10px;
