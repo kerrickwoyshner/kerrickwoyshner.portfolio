@@ -113,7 +113,7 @@ body,
     }
 
     .move-to-the-right {
-        left: 100px;   
+        padding-left: 100px;   
     }
 
     /* Turn off parallax scrolling for tablets and phones */
