@@ -108,6 +108,9 @@ body,
         width: 528.89px;
         height: 268.98px;
     }
+    .portfolio-picture:hover {
+        cursor: pointer;
+    }
 
 /* Turn off parallax scrolling for tablets and phones */
     @media only screen and (max-device-width: 1024px) {
