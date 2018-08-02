@@ -76,9 +76,6 @@ body,
     .container {
         width:100%;
         text-align:center;
-        margin-right: 60px;
-        margin-left: 60px;
-        margin-top: 20px;
     }
     .left {
         float:left;
@@ -93,7 +90,7 @@ body,
         margin:0 auto;
         width: 30%;
         height: 600px;
-        padding: 20px;
+        padding: 10px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
