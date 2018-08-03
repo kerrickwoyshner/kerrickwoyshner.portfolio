@@ -74,15 +74,12 @@ body,
 
 /* Portfolio Section */
     .container {
-        margin: 0px;
-        padding-left: 30px;
-        padding-right: 30px;
-        width:70%;
+        width:100%;
         text-align:center;
     }
     .left {
         float:left;
-        width: 30%;
+        width: 33%;
         height: 450px;
         border: 1px solid;
         box-shadow: 5px 10px;
@@ -91,14 +88,14 @@ body,
         display: inline-block;
         margin:0 auto;
         padding: 0;
-        width: 30%;
+        width: 33%;
         height: 450px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
     .right {
         float:right;
-        width: 30%;
+        width: 33%;
         height: 450px;
         border: 1px solid;
         box-shadow: 5px 10px;
