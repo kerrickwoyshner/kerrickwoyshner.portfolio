@@ -121,7 +121,7 @@ body,
     padding: 0 0.5em 0 0.5em; /**space between icons**/
     position: relative; /**remove position rule if full size images will share the same display area. **/
 }
-.a {
+#a {
     border:none;
     text-decoration:none;
     padding: 0 0.5em 0 0.5em; /**space between icons**/
@@ -149,7 +149,7 @@ body,
     padding: 5px;
 }
 
-.a {
+#a {
     visibility:hidden;
     background-color: #FFF;
     display:block;
@@ -170,7 +170,7 @@ body,
     padding: 5px;
 }
 
-.span {
+#span {
     visibility:hidden;
     background-color: #FFF;
     display:block;
@@ -201,11 +201,11 @@ body,
     width: 300px;
 }
 
-#rollover a:hover .span #rollover .a:active .span #rollover .a:focus .span {
+#rollover a:hover #span #rollover #a:active #span #rollover #a:focus #span {
     visibility:visible;
 }
 
-#rollover .a:hover #rollover .a:focus {
+#rollover #a:hover #rollover #a:focus {
     visibility:visible;
 }
 
