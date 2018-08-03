@@ -74,6 +74,7 @@ body,
 
 /* Portfolio Section */
     .container {
+        margin-left: 50px;
         width:80%;
         text-align:center;
     }
@@ -110,6 +111,11 @@ body,
         cursor: pointer;
     }
 
+/* Portfolio Description */
+    .portfolio-description {
+        text-align: center;
+        font-weight: bold;
+    }
 
 /* Turn off parallax scrolling for tablets and phones */
     @media only screen and (max-device-width: 1024px) {
@@ -139,20 +145,7 @@ body,
         width: 100%;
     } */
 
-    
-/* Old Portfolio Styling: Portfolio Description */
-    .portfolio-description {
-        text-align: center;
-        font-weight: bold;
-    }
-    .portfolio-image {
-        border: 1px solid;
-        box-shadow: 5px 10px;
-        margin: 5px;
-        height: 355px;
-        width: 233px;
-    }
-    .column {
+    /* .column {
         float: left;
         height: 500px;
         width: 45.00%;
@@ -160,7 +153,16 @@ body,
         border: 1px solid;
         box-shadow: 5px 10px;
         margin: 10px;
-    }
+    } */
+
+    /* Old Portfolio Image Styling */
+    /* .portfolio-image {
+        border: 1px solid;
+        box-shadow: 5px 10px;
+        margin: 5px;
+        height: 355px;
+        width: 233px;
+    } */
 
     /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
