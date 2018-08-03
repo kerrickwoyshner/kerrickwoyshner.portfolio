@@ -79,7 +79,7 @@ body,
     }
     .left {
         float:left;
-        width: 33%;
+        width: 30%;
         height: 450px;
         border: 1px solid;
         box-shadow: 5px 10px;
@@ -88,14 +88,14 @@ body,
         display: inline-block;
         margin:0 auto;
         padding: 0;
-        width: 33%;
+        width: 30%;
         height: 450px;
         border: 1px solid;
         box-shadow: 5px 10px;
     }
     .right {
         float:right;
-        width: 33%;
+        width: 30%;
         height: 450px;
         border: 1px solid;
         box-shadow: 5px 10px;
